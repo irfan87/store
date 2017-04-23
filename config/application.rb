@@ -33,6 +33,6 @@ module Store
 			g.fixture_replacement :factory_girl, dir: "spec/factories"
 		end
 		
-		config.include FactoryGirl::Syntax::Methods
+		# config.include FactoryGirl::Syntax::Methods
   end
 end
